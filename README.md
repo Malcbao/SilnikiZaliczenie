@@ -6,7 +6,7 @@
 6. System ataków dystansowych przeciwników. Jakieś bardziej zaawansowane AI.
 7.
 (nie jestem bogiem programowania)
-Poruszanie skakanie 1-2h
+Poruszanie skakanie 20h
 AI(wraz z przyciskami od obrażeń) 5-6h
 Znalezienie assetów i jak trzeba ich zrobienie 6-7h
 Ułożenie poziomu 3-4h
