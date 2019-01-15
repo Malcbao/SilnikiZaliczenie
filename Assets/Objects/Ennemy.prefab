@@ -20,8 +20,23 @@ GameObject:
   m_Component:
   - component: {fileID: 4644581300045432}
   - component: {fileID: 212662878506020834}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_shoulder_r_04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1016499292109942
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4998059364770184}
+  m_Layer: 8
+  m_Name: UpLocation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -35,7 +50,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4687819555939174}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_leg_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,7 +65,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4134491862978640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_elbow_R_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +80,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4036539803070852}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_wrist_R_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -81,8 +96,26 @@ GameObject:
   m_Component:
   - component: {fileID: 4431040453906480}
   - component: {fileID: 212489724425620978}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_leg_r_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1105523342727850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4440779609201682}
+  - component: {fileID: 212123998068776458}
+  - component: {fileID: 61673184194257596}
+  - component: {fileID: 114132164297481288}
+  m_Layer: 8
+  m_Name: smallbluebox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -97,7 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4168105698707038}
   - component: {fileID: 212149405993857866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_wrist_l_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -112,7 +145,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4500538586176340}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_shoulder_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,7 +160,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4060285161719652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_boot_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -143,7 +176,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4627125143599114}
   - component: {fileID: 95276330380211720}
-  m_Layer: 0
+  - component: {fileID: 114942455989963596}
+  - component: {fileID: 114505635614250046}
+  - component: {fileID: 50492480784245542}
+  - component: {fileID: 70128003334958700}
+  m_Layer: 8
   m_Name: Ennemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4013596412462590}
   - component: {fileID: 212102152061988684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_face_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +212,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4863664558197818}
   - component: {fileID: 212573329225112150}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_shoulder_l_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -191,7 +228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4497760861607080}
   - component: {fileID: 212362274378669622}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_leg_l_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +243,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4208604640077352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_torso_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +259,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4298709163001444}
   - component: {fileID: 212051653487830650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_wrist_r_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,8 +274,25 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4263657220146994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_elbow_L_01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1422112621533748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4926603433105722}
+  - component: {fileID: 61092351304546038}
+  - component: {fileID: 114601859729702680}
+  m_Layer: 0
+  m_Name: DamageDealer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -253,7 +307,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4223185080021796}
   - component: {fileID: 212848440345904392}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_boot_l_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -269,7 +323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4466397269605608}
   - component: {fileID: 212437993883115502}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_head_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -284,7 +338,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4820927297827668}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_wrist_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -300,7 +354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4607957514485434}
   - component: {fileID: 212865741484603880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_torso_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -315,7 +369,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4503467750621508}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_leg_R_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -331,7 +385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4494058665225096}
   - component: {fileID: 212493759590234872}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_elbow_r_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -346,7 +400,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4884479923671378}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_pelvis_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -361,7 +415,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4147322964291304}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_head_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -377,7 +431,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4767161710302868}
   - component: {fileID: 212745845281016254}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_pelvis_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -392,7 +446,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4097921407922024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_weapon_L_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -407,7 +461,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4941188096553136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_shoulder_R_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +477,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4582204990661744}
   - component: {fileID: 212624597998980744}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_elbow_l_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -439,7 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4320082087129030}
   - component: {fileID: 212686704748007464}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_weapon_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +508,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4129794340418506}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_boot_R_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4220187499167244}
   - component: {fileID: 212232612400431994}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_weapon_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,7 +540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4727293508291750}
   - component: {fileID: 212200608669463588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_hood_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -502,7 +556,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4600517020681068}
   - component: {fileID: 212202400022902570}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Rogue_boot_r_04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -720,6 +774,20 @@ Transform:
   m_Father: {fileID: 4503467750621508}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4440779609201682
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105523342727850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.35, y: 8.66, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_Children:
+  - {fileID: 4998059364770184}
+  m_Father: {fileID: 4627125143599114}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4466397269605608
 Transform:
   m_ObjectHideFlags: 1
@@ -839,6 +907,8 @@ Transform:
   m_LocalScale: {x: 0.13932699, y: 0.139327, z: 0.139327}
   m_Children:
   - {fileID: 4884479923671378}
+  - {fileID: 4440779609201682}
+  - {fileID: 4926603433105722}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -941,6 +1011,19 @@ Transform:
   m_Father: {fileID: 4627125143599114}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!4 &4926603433105722
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422112621533748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.24, y: 2.74, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4627125143599114}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4941188096553136
 Transform:
   m_ObjectHideFlags: 1
@@ -956,6 +1039,104 @@ Transform:
   m_Father: {fileID: 4208604640077352}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -12.094715}
+--- !u!4 &4998059364770184
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1016499292109942}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4440779609201682}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50492480784245542
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256271923972136}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!61 &61092351304546038
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422112621533748}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.4, y: 1.1}
+  m_EdgeRadius: 0
+--- !u!61 &61673184194257596
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105523342727850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.5}
+    newSize: {x: 0.5, y: 0.5}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 0.5}
+  m_EdgeRadius: 0
+--- !u!70 &70128003334958700
+CapsuleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256271923972136}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 3.3674161}
+  m_Size: {x: 4.461674, y: 7.734833}
+  m_Direction: 0
 --- !u!95 &95276330380211720
 Animator:
   serializedVersion: 3
@@ -974,6 +1155,62 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114132164297481288
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105523342727850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88341381c2fd14a46923c41fd1308e1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyEnemy: {fileID: 0}
+  UpLocation: {fileID: 4998059364770184}
+--- !u!114 &114505635614250046
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256271923972136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fa711094152e3d43937c630257840cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WalkSpeed: 250
+  Gravity: 1
+  JumpPower: 3
+  Size: {x: 1, y: 1}
+  Ofset: {x: 0, y: 0}
+  FirstPosition: {fileID: 0}
+  SecPosition: {fileID: 0}
+--- !u!114 &114601859729702680
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422112621533748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44af2d9f81eca59408f123887ff92631, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bIsCritical: 1
+--- !u!114 &114942455989963596
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1256271923972136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1192b348cca0f9e4e9c60215534bde28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Healths:
+  - {fileID: 1105523342727850}
 --- !u!212 &212051653487830650
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -1060,6 +1297,51 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!212 &212123998068776458
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1105523342727850}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 5f8bbe0094c1d6f47b7b998d04c43c5b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.5, y: 0.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

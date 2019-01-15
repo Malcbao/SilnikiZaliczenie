@@ -6,10 +6,13 @@ public class Hero : MonoBehaviour {
 
     bool bIsDamaged;
     CheckPoint ActualCP;
+    [SerializeField] GameObject StartCP;
 
     // Use this for initialization
     void Start () {
         bIsDamaged = false;
+        if (StartCP)
+            ActualCP = StartCP.GetComponent<CheckPoint>();
     }
 	
 	// Update is called once per frame
@@ -35,7 +38,11 @@ public class Hero : MonoBehaviour {
         {
             if(!ActualCP.UsePoint(gameObject))
             {
-
+                GameObject Manager = GameObject.FindGameObjectWithTag("MapManager");
+                if (Manager)
+                {
+                    Manager.GetComponent<MapManager>().RestartLevel();
+                }
             }
         }
     }

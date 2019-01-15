@@ -20,6 +20,13 @@ public class Enemy : MonoBehaviour {
     {
         Healths.Remove(Health);
         if (Healths.Count == 0)
+        {
+            GameObject Manager = GameObject.FindGameObjectWithTag("MapManager");
+            if (Manager)
+            {
+                Manager.GetComponent<MapManager>().EnemyKilled(gameObject);
+            }
             Destroy(gameObject);
+        }
     }
 }

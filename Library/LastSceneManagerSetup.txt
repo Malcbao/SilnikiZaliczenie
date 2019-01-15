@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Free Asset - 2D Handcrafted Art/DemoScene.unity
+- path: Assets/Map assets/Map.unity
   isLoaded: 1
   isActive: 1

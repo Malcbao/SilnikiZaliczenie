@@ -95,10 +95,12 @@ public class Movement : MonoBehaviour {
     [SerializeField] float JumpPower = 3;
     protected Rigidbody2D rb;
     protected bool bIsOnGround;
+    bool bMoveDirection = true;
 
     Rigidbody2D Floor;
 
     [SerializeField] Vector2 Size;
+    [SerializeField] Vector2 Ofset;
     
     Vector2 MoveForce;
     float FallSpeed;
@@ -237,7 +239,12 @@ public class Movement : MonoBehaviour {
         LayerMask Mask = LayerMask.GetMask("Gameplay");
         //bIsOnGround = Physics2D.OverlapCapsule(transform.position, Size, Dir, 0, Mask);
         //Collider2D Ground = Physics2D.OverlapCapsule(transform.position, Size, Dir, 0, Mask);
-        Collider2D[] Ground = Physics2D.OverlapCapsuleAll(transform.position, Size, Dir, 0, Mask);
+        Collider2D[] Ground;
+        if (bMoveDirection)
+            Ground = Physics2D.OverlapCapsuleAll(transform.position + new Vector3(Ofset.x, Ofset.y, 0), Size, Dir, 0, Mask);
+        else
+            Ground = Physics2D.OverlapCapsuleAll(transform.position + new Vector3(Ofset.x * -1, Ofset.y, 0), Size, Dir, 0, Mask);
+
         foreach (Collider2D col in Ground)
         {
             if (col.gameObject != gameObject)
